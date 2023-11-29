@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+header{
+    height: 100px;
+}
+
+img{
+    width: 80px;
+}
+
+
+/* MAIN */
+main{
+    background-color: aquamarine;
+}
+
+
+/* GAME */
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* BUTTON */
+.clicked {
+    background-color: rgb(17, 181, 236);
+}
+
+
+/* FOOTER */
+footer{
+    height: 100px;
+}
