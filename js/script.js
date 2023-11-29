@@ -20,6 +20,12 @@ function createNewGame() {
         // CREO LA CELLA
         let square = createCell(i + 1);
 
+        // BONUS: AD OGNI CLICK NELLA CASELLA DELLA GRIGLIA, QUELL'ELEMENTO CAMBIA COLORORE E ME LO MOSTRA ANCHE IN CONSOLE.LOG
+        square.addEventListener("click", function () {
+            this.classList.toggle("clicked");
+            console.log(this);
+        })
+
         // APPENDO LA CELLA ALLA GRIGLIA
         grid.appendChild(square);
     }
