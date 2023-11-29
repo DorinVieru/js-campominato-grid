@@ -23,8 +23,8 @@ main{
 
 /* GAME */
 .square {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     background-color: aquamarine;
     border: 1px solid black;
     display: flex;
