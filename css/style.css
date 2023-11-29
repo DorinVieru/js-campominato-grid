@@ -3,3 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 100px;
+}
+
+main{
+    background-color: aquamarine;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
